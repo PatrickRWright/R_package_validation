@@ -1,2 +1,2 @@
-# R_package_validation
+# R package validation
 Validation of R packages
