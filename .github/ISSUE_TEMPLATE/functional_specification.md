@@ -1,10 +1,14 @@
 ---
-name: Custom issue template
-about: Describe this issue template's purpose here.
-title: ''
-labels: ''
-assignees: ''
+name: Functional specification 
+about: Technically describe the functionality
+labels: 'Functional specification'
 
 ---
 
+**Description:**  
+
+
+**Linkage to related documents:**  
+Customer requirement: 
+Test: 
 

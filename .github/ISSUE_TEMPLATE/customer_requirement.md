@@ -1,11 +1,13 @@
 ---
 name: Customer requirement 
 about: High level description of the required functionality
-labels: '+, Customer requirement'
+labels: 'Customer requirement'
 
 ---
 
-#### Linkage to related documents:
+**Description:**  
+
+**Linkage to related documents:**  
 Functional specification:  
 Test:
 
