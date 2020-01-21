@@ -6,6 +6,7 @@ labels: 'Customer requirement'
 ---
 
 **Description:**  
+The user must be able to...
 
 **Linkage to related documents:**  
 Functional specification:  
