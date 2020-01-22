@@ -1,12 +1,12 @@
 ---
-name: Customer requirement 
+name: User requirement 
 about: High level description of the required functionality
-labels: 'Customer requirement'
+labels: 'User requirement'
 
 ---
 
 **Description:**  
-The user must be able to...
+As a user I can...
 
 **Linkage to related documents:**  
 Functional specification:  
