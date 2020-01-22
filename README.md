@@ -9,7 +9,7 @@ Every functionality needs:
 
 ## Versioning
 
-All user requirements, functional specifications and tests need to be compiled into individual version controlled documents (one per class).
+All user requirements, functional specifications and tests need to be compiled into individual version controlled documents (one per class) and released together with every official release of the software.
 
 ## Risk assessment
 
