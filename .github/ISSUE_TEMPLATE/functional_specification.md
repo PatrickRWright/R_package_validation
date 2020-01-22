@@ -9,6 +9,6 @@ labels: 'Functional specification'
 
 
 **Linkage to related documents:**  
-Customer requirement: 
+User requirement: 
 Test: 
 

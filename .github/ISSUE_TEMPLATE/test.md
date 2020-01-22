@@ -16,6 +16,6 @@ labels: 'Test'
 **Technical test source:** [test-file_name.R](www.link_to_my_file.com)
 
 **Linkage to related documents:**
-Customer requirement: 
+User requirement: 
 Functional specification: 
 
