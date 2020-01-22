@@ -11,6 +11,14 @@ Every functionality needs:
 
 All user requirements, functional specifications and tests need to be compiled into individual version controlled documents (one per class) and released together with every official release of the software.
 
+This should be parsed automatically from the GitHub API json.
+
+## Traceability Matrix
+
+A matrix representation of which user requirements are covered by which functional specifications and which tests.
+
+This should be parsed automatically from the GitHub API json.
+
 ## Risk assessment
 
 Risks are assessed for all functional specifications based on the following method.
