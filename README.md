@@ -1,6 +1,4 @@
-# R package validation
-
-How to perform a validation of R packages
+# R package validation process
 
 Every functionality needs:
  - to be defined as a very briefly written high level **user requirement**
