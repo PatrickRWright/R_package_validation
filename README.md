@@ -13,4 +13,9 @@ All user requirements, functional specifications and tests need to be compiled i
 
 ## Risk assessment
 
-Risks are assessed for all functional specifications based on the FMEA (Failure Mode and Effects Analysis) method.
+Risks are assessed for all functional specifications based on the following method.
+
+Classify: (High = 3, Medium = 2, Low = 1)  
+**Severity** - How detrimental is a failure of the assessed functionality?  
+**Probability** - How likely is a failure of the assessed functionality?  
+**Detectability** - How quickly will a failure of the assesed functionality be detected?  
