@@ -1,4 +1,4 @@
-# R package validation process
+# R package validation plan
 
 ## Specification
 
