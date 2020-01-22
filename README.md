@@ -11,3 +11,6 @@ Every functionality needs:
 
 All user requirements, functional specifications and tests need to be compiled into individual version controlled documents (one per class).
 
+## Risk assessment
+
+Risks are assessed for all functional specifications based on the FMEA (Failure Mode and Effects Analysis) method.
