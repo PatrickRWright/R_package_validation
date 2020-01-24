@@ -61,6 +61,15 @@ Assess the **Final risk** based on the **Risk class** and the **detectability**.
 | **Medium**                      |   3 :red_circle: |   2 :large_blue_circle:   |  1 :white_circle: |
 | **Low**                         |   2 :large_blue_circle: |   1 :white_circle:   |  1 :white_circle: |
 
-This can be performed by using the `return_risk()` function in R. The source code can be found in the src
-directory.
+This can be performed by using the `risk_calculator()` function in R. The source code can be found in the src
+directory of this repository.
+
+**Usage example**
+```r
+risk_calculator(severity = 3, probability = 1, detectability = 3)
+[1] 3
+```
+
+
+
 
