@@ -66,8 +66,8 @@ directory of this repository.
 
 **Usage example**
 ```r
+# returns 3
 risk_calculator(severity = 3, probability = 1, detectability = 3)
-[1] 3
 ```
 
 
