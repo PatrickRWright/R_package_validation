@@ -1,5 +1,5 @@
 # 1 = low, 2 = medium, 3 = high
-return_risk <- function(severity, probability, detectability) {
+risk_calculator <- function(severity, probability, detectability) {
 
   if (! is.numeric(c(severity, probability, detectability))) {
     stop("Only numeric inputs 1, 2 and 3 allowed.")
