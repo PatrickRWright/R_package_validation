@@ -10,7 +10,7 @@ parse_issue_json_to_csv <- function(repos_owner,
   # parse issues
   issues <- fromJSON(link)
   # retain relevant columns
-  issues_relevant <- issues[, c("title", "body", "created_at", "updated_at", "html_url")]
+  issues_relevant <- issues[, c("title", "number", "body", "created_at", "updated_at", "html_url")]
 
   issue_labels_list <- issues$labels
   # init
