@@ -32,7 +32,7 @@ parse_issue_json_to_csv(repos_owner = "PatrickRWright", repos_name = "R_package_
 
 A matrix representation of which user requirements are covered by which functional specifications and which tests.
 
-**This should be parsed automatically from the GitHub API json.**
+**This can probably be contructed from the data retrieved by `parse_issue_json_to_csv()`**
 
 ## Risk assessment
 
