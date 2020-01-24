@@ -8,7 +8,11 @@ labels: 'Functional specification'
 **Description:**  
 
 **Risk assessment:**
-**Severity**: x, **Probability**: x, **Detectability**: x
+For each select one of: 1 = low, 2 = medium, 3 = high
+Explain each selection briefly.
+**Severity**: 
+**Probability**: 
+**Detectability**: 
 
 **Linkage to related documents:**  
 User requirement: 
