@@ -20,7 +20,13 @@ The links between a related **user requirement**, **functional specification** a
 All user requirements, functional specifications and tests need to be compiled into individual version controlled
 documents (one per class) and released together with every official release of the software.
 
-**This should be parsed automatically from the GitHub API json.**
+This information can be retrieved automatically from the GitHub API by using the `parse_issue_json_to_csv()`
+in R as shown in the below example. The source code can be found in the [src](src) directory of this repository.
+
+```r
+# will write the file github_issues.csv in your current working directory
+parse_issue_json_to_csv(repos_owner = "PatrickRWright", repos_name = "R_package_validation")
+```
 
 ## Traceability Matrix
 
