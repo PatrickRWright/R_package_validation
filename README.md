@@ -44,7 +44,7 @@ Assess the **Risk class** based on **probability** and **severity** in the below
 | **Medium**                  |   3  |   2    |  1  |
 | **Low**                     |   2  |   1    |  1  |
 
-Assess the **Final risk** based on the **Risk class** and the **detectability**
+Assess the **Final risk** based on the **Risk class** and the **detectability**.
 
 **Final risk matrix**
 
