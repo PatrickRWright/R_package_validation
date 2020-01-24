@@ -29,7 +29,7 @@ This should be parsed automatically from the GitHub API json.
 
 Risk categories are assessed for every functional specification individually based on the following method.
 
-Classify: (High = 3, Medium = 2, Low = 1)  
+Classify: (:red_circle: High = 3, :large_blue_circle: Medium = 2 , :white_circle: Low = 1)  
 **Severity** - How detrimental is a failure of the assessed functionality?  
 **Probability** - How likely is a failure of the assessed functionality?  
 **Detectability** - How quickly will a failure of the assesed functionality be detected? 
@@ -42,9 +42,9 @@ Assess the **Risk class** based on **probability** and **severity** in the below
 
 |Probability (x)/Severity (y) | High | Medium | Low |
 |-----------------------------|------|--------|-----|
-| **High**                    |   3  |   3    |  2  |
-| **Medium**                  |   3  |   2    |  1  |
-| **Low**                     |   2  |   1    |  1  |
+| **High**                    |   3 :red_circle:  |   3 :red_circle:   |  2 :large_blue_circle: |
+| **Medium**                  |   3 :red_circle: |   2 :large_blue_circle:   |  1 :white_circle: |
+| **Low**                     |   2 :large_blue_circle: |   1 :white_circle:   |  1 :white_circle: |
 
 ---
 
@@ -54,7 +54,7 @@ Assess the **Final risk** based on the **Risk class** and the **detectability**.
 
 |Risk class (x)/Detectability (y) | High | Medium | Low |
 |---------------------------------|------|--------|-----|
-| **High**                        |   3  |   3    |  2  |
-| **Medium**                      |   3  |   2    |  1  |
-| **Low**                         |   2  |   1    |  1  |
+| **High**                        |   3 :red_circle: |   3 :red_circle:   |  2 :large_blue_circle: |
+| **Medium**                      |   3 :red_circle: |   2 :large_blue_circle:   |  1 :white_circle: |
+| **Low**                         |   2 :large_blue_circle: |   1 :white_circle:   |  1 :white_circle: |
 
