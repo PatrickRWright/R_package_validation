@@ -11,7 +11,7 @@ We define this per R function in the R package to be validated. Thus, every R fu
 has one **functional specification** and may have serveral **tests** (at least one) depending on the risk category assigned
 to the **functional specification**.
 
-The links between a related user requirement, functional specification and tests need to be specifically stated.
+The links between a related **user requirement**, **functional specification** and **tests** need to be specifically stated.
 
 ## Versioning
 
