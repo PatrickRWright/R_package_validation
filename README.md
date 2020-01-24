@@ -27,12 +27,14 @@ This should be parsed automatically from the GitHub API json.
 
 ## Risk assessment
 
-Risks are assessed for all functional specifications based on the following method.
+Risk categories are assessed for every functional specification individually based on the following method.
 
 Classify: (High = 3, Medium = 2, Low = 1)  
 **Severity** - How detrimental is a failure of the assessed functionality?  
 **Probability** - How likely is a failure of the assessed functionality?  
 **Detectability** - How quickly will a failure of the assesed functionality be detected? 
+
+Assess the **Risk class** based on **probability** and **severity** in the below matrix.
 
 **Risk class matrix**
 
@@ -42,7 +44,9 @@ Classify: (High = 3, Medium = 2, Low = 1)
 | **Medium**                  |   3  |   2    |  1  |
 | **Low**                     |   2  |   1    |  1  |
 
-**Final risk**
+Assess the **Final risk** based on the **Risk class** and the **detectability**
+
+**Final risk matrix**
 
 |Risk class (x)/Detectability (y) | High | Medium | Low |
 |---------------------------------|------|--------|-----|
