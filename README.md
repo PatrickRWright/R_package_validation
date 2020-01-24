@@ -5,13 +5,15 @@
 Every functionality needs:
  - to be defined as a very briefly written high level **user requirement**
  - to be defined as a more technically written **functional specification**
- - to be technically tested and the **tests** need to be described
+ - to be technically tested with the `testthat` framework and the **tests** need to be described
 
 We define this per R function in the R package to be validated. Thus, every R function fulfills one **user requirement**,
 has one **functional specification** and may have serveral **tests** (at least one) depending on the risk category assigned
 to the **functional specification**.
 
-The links between a related **user requirement**, **functional specification** and **tests** need to be specifically stated.
+This can be achieved by starting a new GitHub Issue and then selecting one of templates from **User requirement**, **Functional specification** or **Test specification**.
+
+The links between a related **user requirement**, **functional specification** and **tests** need to be specifically stated. This can be performed by using the hashtag symbol (#) in combination with the id of the Issue.
 
 ## Versioning
 
