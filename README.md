@@ -11,7 +11,7 @@ We define this per R function in the R package to be validated. Thus, every R fu
 has one **functional specification** and may have serveral **tests** (at least one) depending on the risk category assigned
 to the **functional specification**.
 
-The links between a related user requirement, functional specification and tests need to be specifically stated.
+The links between a related **user requirement**, **functional specification** and **tests** need to be specifically stated.
 
 ## Versioning
 
@@ -61,6 +61,14 @@ Assess the **Final risk** based on the **Risk class** and the **detectability**.
 | **Medium**                      |   3 :red_circle: |   2 :large_blue_circle:   |  1 :white_circle: |
 | **Low**                         |   2 :large_blue_circle: |   1 :white_circle:   |  1 :white_circle: |
 
-This can be performed by using the `return_risk()` function in R. The source code can be found in the src
-directory.
+This can be performed by using the `risk_calculator()` function in R as shown in the below example.
+The source code can be found in the [src](src) directory of this repository.
+
+```r
+# returns 3
+risk_calculator(severity = 3, probability = 1, detectability = 3)
+```
+
+
+
 
