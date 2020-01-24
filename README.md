@@ -8,7 +8,7 @@ Every functionality needs:
  - to be technically tested and the **tests** need to be described
 
 We define this per R function in the R package to be validated. Thus, every R function fulfills one user requirement,
-has one functional specification and may have serveral tests depending on the risk category assigned to
+has one functional specification and may have serveral tests (at least one) depending on the risk category assigned to
 the functional specification.
 
 The links between a related user requirement, functional specification and tests need to be specifically stated.
@@ -34,6 +34,8 @@ Classify: (High = 3, Medium = 2, Low = 1)
 **Probability** - How likely is a failure of the assessed functionality?  
 **Detectability** - How quickly will a failure of the assesed functionality be detected? 
 
+---
+
 Assess the **Risk class** based on **probability** and **severity** in the below matrix.
 
 **Risk class matrix**
@@ -43,6 +45,8 @@ Assess the **Risk class** based on **probability** and **severity** in the below
 | **High**                    |   3  |   3    |  2  |
 | **Medium**                  |   3  |   2    |  1  |
 | **Low**                     |   2  |   1    |  1  |
+
+---
 
 Assess the **Final risk** based on the **Risk class** and the **detectability**.
 
