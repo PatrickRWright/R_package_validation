@@ -34,8 +34,19 @@ Classify: (High = 3, Medium = 2, Low = 1)
 **Probability** - How likely is a failure of the assessed functionality?  
 **Detectability** - How quickly will a failure of the assesed functionality be detected? 
 
-| Probability  / Severity | High | Medium | Low |
-|-------------------------|------|--------|-----|
-| High                    |      |        |     |
-| Medium                  |      |        |     |
-| Low                     |      |        |     |
+**Risk class matrix**
+
+|Probability (x)/Severity (y) | High | Medium | Low |
+|-----------------------------|------|--------|-----|
+| **High**                    |   3  |   3    |  2  |
+| **Medium**                  |   3  |   2    |  1  |
+| **Low**                     |   2  |   1    |  1  |
+
+**Final risk**
+
+|Risk class (x)/Detectability (y) | High | Medium | Low |
+|---------------------------------|------|--------|-----|
+| **High**                        |   3  |   3    |  2  |
+| **Medium**                      |   3  |   2    |  1  |
+| **Low**                         |   2  |   1    |  1  |
+
