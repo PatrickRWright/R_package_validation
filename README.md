@@ -1,4 +1,4 @@
-# R package validation plan - Custom built software
+# R package validation plan - custom built software
 
 ## Specification
 
@@ -6,6 +6,10 @@ Every functionality needs:
  - to be defined as a very briefly written high level **user requirement**
  - to be defined as a more technically written **functional specification**
  - to be technically tested and the **tests** need to be described
+
+We define this per R function in the R package. Thus, every R function fulfills one user requirement,
+has one functional specification and may have serveral tests depending on the risk category assigned to
+the functional specification.
 
 ## Versioning
 
