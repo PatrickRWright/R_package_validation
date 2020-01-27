@@ -40,9 +40,7 @@ prepare_validation_documents("github_issues.csv")
 
 ## Traceability Matrix
 
-A matrix representation of which user requirements are covered by which functional specifications and which tests.
-
-**This can probably be contructed from the data retrieved by `parse_issue_json_to_csv()`**
+A matrix representation of which user requirements are covered by which functional specifications and which tests. The matrix is also built as an `*.md` file by `prepare_validation_documents()`.
 
 ## Risk assessment
 
