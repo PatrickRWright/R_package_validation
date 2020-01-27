@@ -1,0 +1,65 @@
+"title","number","body","created_at","updated_at","html_url","issue_labels"
+"Plotting recruitment over time and centre",9,"### Test objectives: 
+
+**Test type 1:**  
+
+**Test type 2:**  
+
+**Test type n:**  
+
+**Technical test source:** [test-file_name.R](www.link_to_my_file.com)
+
+**Linkage to related documents:**
+Customer requirement: #7 
+Functional specification: #8
+
+","2020-01-21T17:18:52Z","2020-01-22T15:18:54Z","https://github.com/PatrickRWright/R_package_validation/issues/9","Test"
+"Plotting recruitment over time and centre",8,"**Description:**  
+
+**Linkage to related documents:**  
+Customer requirement: #7 
+Test: #9 
+
+","2020-01-21T17:18:12Z","2020-01-21T17:24:37Z","https://github.com/PatrickRWright/R_package_validation/issues/8","Functional specification, Low risk"
+"Plotting recruitment over time and centre",7,"**Description:**  
+Given an object of class `secuTrialdata` the user must be able to plot the amount of study participants registered over time for the given data.
+
+**Linkage to related documents:**  
+Functional specification:  #8 
+Test: #9 
+
+","2020-01-21T17:17:24Z","2020-01-22T15:19:05Z","https://github.com/PatrickRWright/R_package_validation/issues/7","User requirement"
+"Reading secuTrial data into R statistics ",3,"### Test objectives: 
+
+**Test whether secuTrial data exports can be loaded into R with the use of the `read_secuTrial_raw()` function.**  
+
+* This is tested with the suggested export options which are:
+   - zipped, English, reference values stored in a separate table, contain Add-IDs, contain centre information, contain form status, contain project setup, not rectangular  
+* And the following variations thereof:
+  - ISO, CSV format for MS Excel
+
+**Test whether secuTrial data exports violating the necessary export options fail to load.**  
+* This is tested with the following variations form the suggested export options:
+  - rectangular export
+  - UTF-16
+
+**Technical test source:** [test-read_secuTrial_raw.R](https://github.com/SwissClinicalTrialOrganisation/secuTrialR/blob/master/tests/testthat/test-read_secuTrial_raw.R)
+
+**Linkage to related documents:**  
+Customer requirement: #1 
+Functional specification: #2 ","2020-01-21T15:38:21Z","2020-01-22T15:19:17Z","https://github.com/PatrickRWright/R_package_validation/issues/3","Test"
+"Reading secuTrial data into R statistics ",2,"**Description:**   
+Reading data into R is the central pillar of the `secuTrialR` package since it precedes every downstream step. It should be possible to read a secuTrial export which does not violate the following export options (defined in the secuTrial ExportSearchTool).
+
+* is **not rectangular**
+* is **CSV format** or **CSV format for MS Excel**
+
+**Linkage to related documents:**  
+Customer requirement: #1 
+Test: #3 ","2020-01-21T15:30:26Z","2020-01-24T14:34:55Z","https://github.com/PatrickRWright/R_package_validation/issues/2","Functional specification, High risk"
+"Reading secuTrial data into R statistics",1,"**Description:**
+It must be possible for a user to read the data in a secuTrial export into R statistics with a single function.
+
+**Linkage to related documents:**
+Functional specification: #2 
+Test: #3 ","2020-01-21T15:20:12Z","2020-01-22T15:19:24Z","https://github.com/PatrickRWright/R_package_validation/issues/1","User requirement"
