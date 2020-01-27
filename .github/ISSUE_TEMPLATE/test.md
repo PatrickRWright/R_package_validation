@@ -5,7 +5,7 @@ labels: 'Test'
 
 ---
 
-### Test objectives: 
+**Test objectives:**  
 
 **Test type 1:**  
 
