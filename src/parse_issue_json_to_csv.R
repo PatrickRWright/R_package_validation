@@ -1,10 +1,11 @@
+# dependency
+library(jsonlite)
+
 parse_issue_json_to_csv <- function(repos_owner,
                                     repos_name,
                                     outfile = paste0(getwd(), "/", "github_issues_",
                                                      gsub(Sys.time(), pattern = " ", replacement = "_"),
                                                      ".csv")) {
-  # dependency
-  library(jsonlite)
 
   link <- paste0("https://api.github.com/repos/", repos_owner, "/", repos_name, "/issues")
   message(paste0("The link is: ", link))
