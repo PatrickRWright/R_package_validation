@@ -8,7 +8,7 @@ Every functionality needs:
  - to be technically tested with the [`testthat`](https://cloud.r-project.org/web/packages/testthat/index.html) framework and the **tests** need to be described
 
 We define this per R function in the R package to be validated. Thus, every R function fulfills one **user requirement**,
-has one **functional specification** and may have serveral **tests** (at least one) depending on the risk category assigned
+has one **functional specification** and may have serveral **tests** (at least one) depending on the [risk](https://github.com/PatrickRWright/R_package_validation/blob/master/README.md#risk-assessment) category assigned
 to the **functional specification**.
 
 This can be achieved by starting a new GitHub Issue and then selecting one of templates from **User requirement**, **Functional specification** or **Test specification**.
