@@ -28,6 +28,16 @@ in R as shown in the below example. The source code can be found in the [src](sr
 parse_issue_json_to_csv(repos_owner = "PatrickRWright", repos_name = "R_package_validation")
 ```
 
+The information returned to the `*.csv` file from the above call can then be compiled into three individual `*.md` files.
+One for each of **user requirements**, **functional specifications** and **tests**. The source code can be found in the
+[src](src) directory of this repository.
+
+
+```r
+# writes into your current working directory
+prepare_validation_documents("github_issues.csv")
+```
+
 ## Traceability Matrix
 
 A matrix representation of which user requirements are covered by which functional specifications and which tests.
