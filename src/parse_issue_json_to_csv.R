@@ -1,6 +1,8 @@
 parse_issue_json_to_csv <- function(repos_owner,
                                     repos_name,
-                                    outfile = paste0(getwd(), "/", "github_issues.csv")) {
+                                    outfile = paste0(getwd(), "/", "github_issues_",
+                                                     gsub(Sys.time(), pattern = " ", replacement = "_"),
+                                                     ".csv")) {
   # dependency
   library(jsonlite)
 
