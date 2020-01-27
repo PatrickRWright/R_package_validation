@@ -51,11 +51,11 @@ Assess the **Risk class** based on **probability** and **severity** in the below
 
 **Risk class matrix**
 
-|Probability (x)/Severity (y) | High | Medium | Low |
-|-----------------------------|------|--------|-----|
-| **High**                    |   3 :red_circle:  |   3 :red_circle:   |  2 :large_blue_circle: |
-| **Medium**                  |   3 :red_circle: |   2 :large_blue_circle:   |  1 :white_circle: |
-| **Low**                     |   2 :large_blue_circle: |   1 :white_circle:   |  1 :white_circle: |
+|Probability (x) / Severity (y) | High | Medium | Low |
+|-------------------------------|------|--------|-----|
+| **High**                      |   3 :red_circle:  |   3 :red_circle:   |  2 :large_blue_circle: |
+| **Medium**                    |   3 :red_circle: |   2 :large_blue_circle:   |  1 :white_circle: |
+| **Low**                       |   2 :large_blue_circle: |   1 :white_circle:   |  1 :white_circle: |
 
 ---
 
@@ -63,11 +63,11 @@ Assess the **Final risk** based on the **Risk class** and the **detectability**.
 
 **Final risk matrix**
 
-|Risk class (x)/Detectability (y) | High | Medium | Low |
-|---------------------------------|------|--------|-----|
-| **High**                        |   3 :red_circle: |   3 :red_circle:   |  2 :large_blue_circle: |
-| **Medium**                      |   3 :red_circle: |   2 :large_blue_circle:   |  1 :white_circle: |
-| **Low**                         |   2 :large_blue_circle: |   1 :white_circle:   |  1 :white_circle: |
+|Risk class (x) / Detectability (y) | High | Medium | Low |
+|-----------------------------------|------|--------|-----|
+| **High**                          |   3 :red_circle: |   3 :red_circle:   |  2 :large_blue_circle: |
+| **Medium**                        |   3 :red_circle: |   2 :large_blue_circle:   |  1 :white_circle: |
+| **Low**                           |   2 :large_blue_circle: |   1 :white_circle:   |  1 :white_circle: |
 
 This can be performed by using the `risk_calculator()` function in R as shown in the below example.
 The source code can be found in the [src](src) directory of this repository.
