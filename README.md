@@ -17,7 +17,7 @@ The links between a related **user requirement**, **functional specification** a
 
 ## Versioning
 
-All user requirements, functional specifications and tests need to be compiled into individual version controlled
+All **user requirements**, **functional specifications** and **tests** need to be compiled into individual version controlled
 documents (one per class) and released together with every official release of the software.
 
 This information can be retrieved automatically from the GitHub API by using the `parse_issue_json_to_csv()`
