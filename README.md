@@ -5,7 +5,7 @@
 Every functionality needs:
  - to be defined as a very briefly written high level **user requirement**
  - to be defined as a more technically written **functional specification**
- - to be technically tested with the [`testthat`](https://cloud.r-project.org/web/packages/testthat/index.html) framework and the **tests** need to be described
+ - to be technically tested and the **tests** need to be described
 
 We define this per R function in the R package to be validated. Thus, every R function fulfills one **user requirement**,
 has one **functional specification** and may have serveral **tests** (at least one) depending on the [risk](https://github.com/PatrickRWright/R_package_validation/blob/master/README.md#risk-assessment) category assigned
@@ -14,6 +14,12 @@ to the **functional specification**.
 This can be achieved by starting a new GitHub Issue and then selecting one of the templates from **User requirement**, **Functional specification** or **Test specification**.
 
 The links between a related **user requirement**, **functional specification** and **tests** need to be specifically stated. This can be performed by using the hashtag symbol (#) in combination with the id of the Issue.
+
+## Test framework `testthat`
+Tests can be implemented by employing the [`testthat`](https://cloud.r-project.org/web/packages/testthat/index.html) 
+framework and be independently verified using [Travis CI](https://travis-ci.com/) for Linux builds and
+[AppVeyor](https://ci.appveyor.com/) for Windows builds. The links to the successful external builds should be manually
+added to the top of the test file of the validation release [versioning](https://github.com/PatrickRWright/R_package_validation#versioning).
 
 ## Versioning
 
