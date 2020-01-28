@@ -8,7 +8,7 @@ Every functionality needs:
  - to be technically tested and the **tests** need to be described
 
 We define this per R function in the R package to be validated. Thus, every R function fulfills one **user requirement**,
-has one **functional specification** and may have serveral **tests** (at least one) depending on the [risk](https://github.com/PatrickRWright/R_package_validation/blob/master/README.md#risk-assessment) category assigned
+has one **functional specification** and may have several **tests** (at least one) depending on the [risk](https://github.com/PatrickRWright/R_package_validation/blob/master/README.md#risk-assessment) category assigned
 to the **functional specification**.
 
 This can be achieved by starting a new GitHub Issue and then selecting one of the templates from **User requirement**, **Functional specification** or **Test specification**.
@@ -55,7 +55,7 @@ Risk is assessed for every functional specification individually based on the fo
 Classify: (:red_circle: High = 3, :large_blue_circle: Medium = 2 , :white_circle: Low = 1)  
 **Severity** - How detrimental is a failure of the assessed functionality?  
 **Probability** - How likely is a failure of the assessed functionality?  
-**Detectability** - How quickly will a failure of the assesed functionality be detected? 
+**Detectability** - How quickly will a failure of the assessed functionality be detected? 
 
 The selection of high, medium or low should be briefly explained in the **functional specification**.
 
