@@ -1,4 +1,4 @@
-# R package validation - custom built software
+# R package validation guideline - custom built software
 
 ## Specification
 
