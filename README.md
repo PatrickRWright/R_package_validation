@@ -18,8 +18,10 @@ The links between a related **user requirement**, **functional specification** a
 ## Test framework `testthat`
 Tests can be implemented by employing the [`testthat`](https://cloud.r-project.org/web/packages/testthat/index.html) 
 framework and be independently verified using [Travis CI](https://travis-ci.com/) for Linux builds and
-[AppVeyor](https://ci.appveyor.com/) for Windows builds. The links to the successful external builds should be manually
-added to the top of the test file of the validation release [versioning](https://github.com/PatrickRWright/R_package_validation#versioning).
+[AppVeyor](https://ci.appveyor.com/) for Windows builds. The log files of the successful external builds should be downloaded
+and added to the the validation release [versioning](https://github.com/PatrickRWright/R_package_validation#versioning) 
+files. "Build success" and "Your build exited with 0." at the very bottom of the logs indicate successful builds passing all
+tests.
 
 ## Versioning
 
