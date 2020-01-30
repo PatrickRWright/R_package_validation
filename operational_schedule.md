@@ -14,4 +14,4 @@ within the release.
 
 - Step 5: The build of the package, including the tests, is run for Linux on [Travis CI](https://travis-ci.com/) and for Windows on [AppVeyor](https://ci.appveyor.com/). Given a successful build (indicated by "Build success" or "Your build exited with 0." at the bottom of the log) the log files are to be downloaded and saved.
 
-- Step 6: All files from Steps 3, 4, 5 and this schedule are to be added to an inst/validation/versionnumber (e.g. inst/validation/1.0.1) directory in the R package. The directory and its files should be added to the repository through a pull request which is merged by a different person than the person sending the pull request.
+- Step 6: All files from Steps 3, 4, 5 and this schedule are to be added to an inst/validation/versionnumber (e.g. inst/validation/1.0.1) directory in the R package. The directory and its files should be added to the repository through a pull request which is merged by a different person than the person sending the pull request thus achieving a digitally signed approval.
