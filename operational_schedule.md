@@ -1,4 +1,4 @@
-# Operational schedule
+# Operational schedule - Validation plan
 
 For this package release the below steps were performed in order to achieve a validation of the functionalities
 within the release.
